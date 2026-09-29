@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: green;
+            color: white;
+            padding-bottom: 20px;
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+            color: beige;
+            text-spacing-trim: 20px;
+             padding-bottom: 10px;
+             padding-top: 10px;
+             word-spacing: 20px;
+            
+             
+        }
+
+        a{
+            background-color: black;
+            color: white;
+            word-spacing: 20px;
+            
+        }
+        img{
+            border-top: 10px solid green;
+            border-bottom: 10px  solid green;
+            border-left: 10px  solid green;
+            border-right: 10px solid green;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+
+        }
+        h2{
+            text-align: center;
+        }
+
+        /* Welcome banner: matches the gray box / red left bar / green
+           bold text color scheme from the screenshot */
+        .welcome-banner{
+            background-color: #eeeeee;
+            border-left: 6px solid #a4123f;
+            color: #146b3a;
+            font-weight: bold;
+            padding: 15px 10px;
+            margin: 20px 0;
+        }
+
+        p{
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Explore Kenya</h1>
+    <center>
+        <p style="background-color: green; color: white; border-bottom: 20px  solid  yellow; padding-top: 20px solid  green; ">Discover the beauty, wildlife, culture and adventure of Kenya</p>
+    </center>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Destinations.html">Destinations</a>
+        <a href="Wildlife.html">Wildlife</a>
+        <a href="Culture.html">Culture</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <h2 class="welcome-banner">Welcome to Kenya</h2>
+    <center>
+        <img src="images/Mt.Kenya.jpg" alt="Mt"  width="647px" height="427px">
+    </center>
+    <p>Kenya is a beautiful country located in East Africa. It is known around the world for its wildlife, beautiful beaches, mountains, national parks and rich cultural heritage.</p>
+    <p>Tourism is an important part of life in Kenya. Visitors come from different parts of the world to experience the country's natural beauty and learn about its people and traditions.</p>
+    <p>From the beaches of Mombasa and Diani to the wildlife of Maasai Mara and Amboseli, Kenya offers many different experiences for tourists.</p>
+        <h2>Why Visit Kenya?</h2>
+        <p>Kenya offers many activities for visitors. A tourist can enjoy a wildlife safari in the morning, visit a cultural village in the afternoon and relax at the beach in the evening.</p>
+        <p>The country also has beautiful landscapes including mountains, forests, lakes, grasslands and the Indian Ocean coastline.</p>
+        <h2>Adventure Awaits</h2>
+        <p>Kenya is a destination for people who enjoy adventure. Visitors can go on safari, hiking, camping, bird watching, swimming, diving and many other activities.</p>
+        <p>Whether you are travelling alone, with friends or with your family, Kenya has many places to explore.</p>
+
+        <p>Explore Kenya Tourism &copy; 2026</p>
+
+</body>
+</html>

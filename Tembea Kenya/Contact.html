@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            border-top: 10px solid green;
+            border-bottom: 10px  solid green;
+            border-left: 10px  solid green;
+            border-right: 10px solid green;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+
+        }
+        footer{
+            background-color: black;
+            border-top: 6px solid red;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: green;
+            color: white;
+            padding-bottom: 20px;
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+            color: beige;
+            text-spacing-trim: 20px;
+             padding-bottom: 10px;
+             padding-top: 10px;
+             word-spacing: 20px;
+            
+        }
+        a{
+            background-color: black;
+            color: white;
+            word-spacing: 20px;
+            
+        }
+        h2{
+            background-color: lightgray;
+            border-left: 10px solid brown;
+            border-bottom: solid darkgray;
+            color: green;
+            text-align: center;
+            font-weight: bold;
+            padding: 15px;
+            margin-top: 25px;
+        }
+        
+        </style>
+</head>
+<body>
+    <h1>Plan Your Kenya Adventure</h1>
+    <p  style="background-color: green; color: white; border-bottom: 20px  solid  yellow; padding-top: 20px solid  green; text-align: center;">Tell us about the places you would like to visit</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Destinations.html">Destinations</a>
+        <a href="Wildlife.html">Wildlife</a>
+        <a href="Culture.html">Culture</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <h2>Tourism Enquiry</h2>
+    <p>Interested in visiting Kenya? Fill in the form below and tell us about your travel interests.</p>
+    <form>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname"><br><br>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="destination">Favourite Destination</label>
+    <select name="destination" id="destination">
+        <option value="Maasai Mara">Maasai Mara</option>
+        <option value="Amboseli">Amboseli</option>
+        <option value="Diani Beach">Diani Beach</option>
+        <option value="Mombasa">Mombasa</option>
+        <option value="Mount Kenya">Mount Kenya</option>
+        <option value="Lake Nakuru">Lake Nakuru</option>
+    </select><br><br>
+
+    <label for="activity">Favourite Activity</label><br>
+    <select name="activity" id="activity">
+        <option value="Safari">Safari</option>
+        <option value="Beach Holiday">Beach Holiday</option>
+        <option value="Hiking">Hiking</option>
+        <option value="Wildlife Watching">Wildlife Watching</option>
+        <option value="Cultural Tour">Cultural Tour</option>
+    </select><br><br>
+
+    <label>Preferred Travel Season</label><br>
+    <input type="radio" name="season" value="June - August" id="season1">
+    <label>June - August</label><br>
+
+    <input type="radio" name="season" value="September - November" id="season2">
+    <label>September - November</label><br>
+
+    <input type="radio" name="season" value="December - February" id="season3">
+    <label>December - February</label><br>
+
+    <input type="radio" name="season" value="March - May" id="season4">
+    <label>March - May</label><br><br>
+
+    <label for="message">Your Message</label><br>
+    <textarea name="message" id="message"></textarea><br><br>
+
+    <button type="submit">Send Enquiry</button>
+</form>
+    <h2>Travel Responsibly</h2>
+    <p>Visitors are encouraged to respect Kenya's environment, wildlife and local communities.</p>
+    <p>Keep tourist destinations clean, avoid disturbing wildlife, respect local customs and support local businesses where possible.</p>
+    <h2>Thank You</h2>
+    <p>Thank you for exploring Kenya with us. We hope your journey introduces you to the country's beautiful landscapes, fascinating wildlife and diverse cultures.</p>
+
+     <footer>
+            <p>Explore Kenya Tourism &copy; 2026</p>
+        </footer>
+    
+</body>
+</html>

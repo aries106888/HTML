@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kenya Matatu Culture</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background-color: #f2efe6;
+            color: #222;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* ---------- HEADER ---------- */
+
+        header {
+            background-color: #000000;
+            padding: 40px 20px 30px 20px;
+        }
+
+        header p {
+            text-align: center;
+            font-style: italic;
+            color: #f2efe6;
+            font-size: 18px;
+            margin-top: 12px;
+        }
+
+        /* ---------- NAV ---------- */
+
+        nav {
+            background-color: #c41230;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 18px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ---------- SECTION BANNERS ---------- */
+
+        .banner {
+            background-color: #c41230;
+            padding: 22px 0;
+            margin-top: 20px;
+        }
+
+        .intro-text {
+            max-width: 700px;
+            margin: 20px auto 0 auto;
+            padding: 0 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .section-label {
+            background-color: #e4efe6;
+            padding: 14px 0 14px 30px;
+            margin-top: 25px;
+        }
+
+        .section-label span {
+            color: #1f6b3a;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        /* ---------- FORM ---------- */
+
+        .form-wrapper {
+            background-color: #ffffff;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .field {
+            margin-bottom: 22px;
+        }
+
+        .field label {
+            display: block;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .field input[type="text"],
+        .field input[type="email"],
+        .field select,
+        .field textarea {
+            width: 100%;
+            max-width: 350px;
+            padding: 8px;
+            border: 1px solid #999999;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 14px;
+        }
+
+        .field textarea {
+            max-width: 700px;
+            height: 100px;
+            resize: vertical;
+        }
+
+        .send-btn {
+            background-color: #1f6b3a;
+            color: #ffffff;
+            border: none;
+            padding: 14px 26px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        .send-btn:hover {
+            background-color: #17542d;
+        }
+
+        /* ---------- CONTACT DETAILS ---------- */
+
+        .contact-details {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 25px 20px 40px 20px;
+            font-size: 15px;
+            line-height: 2;
+        }
+
+        /* ---------- FOOTER ---------- */
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 22px 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Share Your Matatu Experience</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="matatus.html">Matatus</a>
+        <a href="nganya.html">Nganyas</a>
+        <a href="culture.html">Culture</a>
+        <a href="routes.html">Routes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="banner">
+        <h2>Tell Us About Matatu Culture</h2>
+    </div>
+
+    <p class="intro-text">
+        Do you have a favourite matatu, route, design or matatu story? We would love to hear from you.
+    </p>
+
+    <div class="section-label">
+        <span>YOUR INFORMATION</span>
+    </div>
+
+    <div class="form-wrapper">
+        <form action="#" method="post">
+
+            <div class="field">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+
+            <div class="field">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="field">
+                <label for="route">Favourite Matatu Route:</label>
+                <input type="text" id="route" name="route">
+            </div>
+
+            <div class="field">
+                <label for="culture">Favourite Part of Matatu Culture:</label>
+                <select id="culture" name="culture">
+                    <option value="music">Music</option>
+                    <option value="art">Art &amp; Graffiti</option>
+                    <option value="sound-system">Sound System</option>
+                    <option value="screens">Screens &amp; Lights</option>
+                    <option value="driving-style">Driving Style</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="experience">Tell Us Your Experience:</label>
+                <textarea id="experience" name="experience"></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">SEND MESSAGE</button>
+
+        </form>
+    </div>
+
+    <div class="banner">
+        <h2>Our Contact Details</h2>
+    </div>
+
+    <div class="contact-details">
+        <p>Email: matatuculture@example.com</p>
+        <p>Phone: 0712 345 678</p>
+        <p>Location: Nairobi, Kenya</p>
+    </div>
+
+    <footer>
+        Kenya Matatu Culture &copy; 2026
+    </footer>
+
+</body>
+</html>
